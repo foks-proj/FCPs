@@ -31,6 +31,17 @@ All FCPs that introduce backwards incompatibilities must include a section descr
 
 A reference/example implementation that people can use to assist in understanding or implementing this specification. If the implementation is too large to reasonably be included inline, then consider adding it to the FCP subdirectory or linking to a PR in an external repository.
 
+## Needed Tests
+
+All major changes must be accompanied by tests that verify correct operation of the feature,
+backwards- and forwards-compatibility behavior, and appropriate handling of forseen attacks
+on cryptographic assurances.
+
+## CLI Changes
+
+If the FCP introduces changes that will be user-facing, there should be a discussion of what
+changes are needed to the FOKS CLI.
+
 ## Security Considerations
 
 Optional section that discusses the security implications/considerations relevant to the proposed change.
